@@ -1,12 +1,16 @@
-# transition-property
+# prop-detect
 
 ## Install
 
-    npm i transition-property -S
+    npm i prop-detect -S
 
 ## Usage
 
 ``` js
-var transitionProperty = require('transition-property')
-el.style[transitionProperty] = '100ms -webkit-transform linear'
+var detect = require('prop-detect')
+var transform = detect.transform
+var transition = detect.transition
+var touchAction = detect.touchAction
+var transitionend = detect.transitionend
+var has3d = detect.has3d
 ```

@@ -1,20 +1,9 @@
-var styles = [
-  'transition',
-  'webkitTransition',
-  'MozTransition',
-  'OTransition',
-  'msTransition'
-]
+exports.transition = require('transition-property')
 
-var el = document.createElement('p')
-var style
+exports.transform = require('transform-property')
 
-for (var i = 0; i < styles.length; i++) {
-  if (null != el.style[styles[i]]) {
-    style = styles[i]
-    break
-  }
-}
-el = null
+exports.touchAction = require('touchaction-property')
 
-module.exports = style
+exports.transitionend = require('transitionend-property')
+
+exports.has3d = require('has-translate3d')
