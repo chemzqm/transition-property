@@ -1,5 +1,7 @@
 # prop-detect
 
+  Detect animation properties, it's annoying to install each of them.
+
 ## Install
 
     npm i prop-detect -S

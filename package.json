@@ -14,8 +14,9 @@
     "url": "git+ssh://git@github.com/chemzqm/prop-detect.git"
   },
   "keywords": [
-    "transition",
-    "property"
+    "detect",
+    "property",
+    "animation"
   ],
   "author": "chemzqm@gmail.com",
   "license": "MIT",
