@@ -4,6 +4,6 @@ var prop = require('..')
 
 describe('transition-property', function() {
   it('should be transition', function () {
-    assert.equal(prop, 'transition')
+    assert.equal(/transition/.test(prop))
   })
 })

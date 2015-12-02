@@ -1,9 +1,9 @@
 var styles = [
-  'transition',
   'webkitTransition',
   'MozTransition',
   'OTransition',
-  'msTransition'
+  'msTransition',
+  'transition'
 ]
 
 var el = document.createElement('p')
